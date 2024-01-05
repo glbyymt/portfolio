@@ -1,0 +1,33 @@
+#header {
+    /* 背景画像をheader.jpgにする */
+    background-image: url("../header.png");
+    /* 縦と横のデフォルトのサイズを画像のサイズに合わせる*/
+
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    font-size: 100px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin-left: 2px;
+    border-left: 10px solid rgb(220, 144, 3);
+    border-bottom: 1px solid rgb(220, 144, 3);
+
+}
