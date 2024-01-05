@@ -1,7 +1,7 @@
 #header {
-    /* �w�i�摜��header.jpg�ɂ��� */
+    /* 背景画像をheader.jpgにする */
     background-image: url("../header.png");
-    /* �c�Ɖ��̃f�t�H���g�̃T�C�Y���摜�̃T�C�Y�ɍ��킹��*/
+    /* 縦と横のデフォルトのサイズを画像のサイズに合わせる*/
 
     background-position: center;
     background-repeat: no-repeat;
@@ -31,3 +31,46 @@ body {
     border-bottom: 1px solid rgb(220, 144, 3);
 
 }
+
+.sand-container {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .sand-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .sand-particle {
+    position: absolute;
+    background-color: #000;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: particleAnimation 1s forwards;
+  }
+  
+  @keyframes particleAnimation {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+  }
+  
