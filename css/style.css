@@ -214,3 +214,17 @@ body {
 p {
   margin: 10px;
 }
+
+.link_out {
+  font-family: 'Lemon', serif;
+  text-decoration: none;
+  display: inline-block; /* リンクが必要な幅だけを占めるようにする */
+  color: chocolate;
+}
+
+.link_out:hover {
+  color:rgb(215, 189, 24);
+  text-decoration: none;
+  /*テキストのサイズだけ大きくする。*/
+  transform: scale(1.0); 
+}
