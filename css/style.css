@@ -161,7 +161,7 @@ body {
 
   margin-right: 15px;
   margin-bottom: 10px;
-  border-bottom: 5px dotted chocolate;
+  border-bottom: 5px double chocolate;
   border-left:10px solid chocolate;
 }
 
@@ -195,6 +195,7 @@ body {
 
 .skill-column_star {
   flex:1;
+  align-self:center;
 
 }
 
