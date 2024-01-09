@@ -1,5 +1,7 @@
 #header {
-    /* 背景画像をheader.jpgにする */
+  font-family: 'Lemon', serif;
+  font-size: 84px;
+  /* 背景画像をheader.jpgにする */
     background-image: url("../header.png");
     /* 縦と横のデフォルトのサイズを画像のサイズに合わせる*/
 
@@ -11,7 +13,8 @@
     align-items: center;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-    font-size: 100px;
+
+
 }
 
 body {
@@ -51,6 +54,7 @@ body {
 }
 
 .link {
+  font-family: 'Lemon', serif;
   color:chocolate;
   text-decoration: none;
   display: inline-block; /* リンクが必要な幅だけを占めるようにする */
@@ -119,6 +123,7 @@ body {
   }
   
   #prof {
+    font-family: 'Lemon', serif;
     border-bottom: chocolate 3px solid ;
     color: chocolate;
     margin-right:20px;
@@ -126,6 +131,7 @@ body {
   }
 
   #skill {
+    font-family: 'Lemon', serif;
     border-bottom: solid 3px chocolate;
     color: chocolate;
     margin-right:20px;
@@ -133,6 +139,7 @@ body {
   }
 
   #works {
+    font-family: 'Lemon', serif;
     border-bottom: solid 3px chocolate;
     color: chocolate;
     margin-right:20px;
@@ -140,6 +147,7 @@ body {
   }
 
   #contact {
+    font-family: 'Lemon', serif;
     border-bottom: solid 3px chocolate;
     color: chocolate;
     margin-right:20px;
