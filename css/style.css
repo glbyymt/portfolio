@@ -21,15 +21,59 @@ body {
 .container {
     display: flex;
     margin-top: 10px;
+    font-size: large;
 }
 
 .column {
     flex: 1;
     padding: 10px;
-    margin-left: 2px;
-    border-left: 10px solid rgb(220, 144, 3);
-    border-bottom: 1px solid rgb(220, 144, 3);
+    margin-left: 15px;
+    border-top: 10px solid chocolate;
+    border-bottom: 10px solid chocolate;
+    /* 文字列を中央寄せ*/
+    text-align: center;
+    font-weight: bolder;
+    height: min-content;
+}
 
+.column1 {
+  flex: 1;
+  padding: 10px;
+  margin-left: 15px;
+  border-top: 10px solid chocolate;
+  border-bottom: 10px solid chocolate;
+  /* 文字列を中央寄せ*/
+  text-align: center;
+  font-weight: bolder;
+  height: min-content;
+  overflow: hidden; /* スケール変換中にコンテンツがはみ出ないように */
+  transition: transform 0.3s ease; /* スムーズなトランジション効果を追加 */
+}
+
+.link {
+  color:chocolate;
+  text-decoration: none;
+  display: inline-block; /* リンクが必要な幅だけを占めるようにする */
+}
+
+.link:hover {
+  color:chocolate;
+  text-decoration: none;
+  /*テキストのサイズだけ大きくする。*/
+  transform: scale(1.5); 
+}
+
+.column4 {
+  flex: 1;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right:15px;
+  border-top: 10px solid chocolate;
+  border-bottom: 10px solid chocolate;
+  /* 文字列を中央寄せ*/
+  text-align: center;
+  font-weight: bolder;
+  height: min-content;
 }
 
 .sand-container {
@@ -74,3 +118,86 @@ body {
     }
   }
   
+  #prof {
+    border-bottom: chocolate 3px solid ;
+    color: chocolate;
+    margin-right:20px;
+    padding-top:10px;
+  }
+
+  #skill {
+    border-bottom: solid 3px chocolate;
+    color: chocolate;
+    margin-right:20px;
+    padding-top:10px;
+  }
+
+  #works {
+    border-bottom: solid 3px chocolate;
+    color: chocolate;
+    margin-right:20px;
+    padding-top:10px;
+  }
+
+  #contact {
+    border-bottom: solid 3px chocolate;
+    color: chocolate;
+    margin-right:20px;
+    padding-top:10px;
+  }
+
+  .detail 
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-bottom:5px;
+  }
+
+.detail-container {
+  display: flex;
+
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-bottom: 5px dotted chocolate;
+  border-left:10px solid chocolate;
+}
+
+.detail-column1 {
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    align-self:center;
+    padding-bottom:10px;
+}
+.detail-column2 {
+  flex: 1;
+  align-self:center;
+  padding-bottom:10px;
+}
+.detail-column3 {
+  flex: 3;
+  padding-bottom:10px;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.skill-column_skill {
+  flex:1;
+  align-self: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+.skill-column_star {
+  flex:1;
+
+}
+
+p {
+  margin: 10px;
+}
