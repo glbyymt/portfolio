@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #header {
   font-family: 'Lemon', serif;
   font-size: 84px;
@@ -13,8 +14,6 @@
     align-items: center;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-
-
 }
 
 body {
@@ -131,6 +130,14 @@ body {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
 
+  h2 {
+    font-family: 'Lemon', serif;
+    color: chocolate;
+    margin-right:25px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
   #skill {
     font-family: 'Lemon', serif;
     border-bottom: solid 3px chocolate;
@@ -213,6 +220,9 @@ body {
 
 p {
   margin: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color:darkslategrey
 }
 
 .link_out {
@@ -227,4 +237,17 @@ p {
   text-decoration: none;
   /*テキストのサイズだけ大きくする。*/
   transform: scale(1.0); 
+}
+
+.footer {
+  font-family: 'Lemon', serif;
+  font-size: 24px;
+  color: white;
+  margin: auto; 
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.strong_str {
+  border-bottom: 5px double chocolate;
 }
